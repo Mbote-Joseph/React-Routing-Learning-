@@ -1,0 +1,39 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-logo {
+  height: 4rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282c34;
+  color: white;
+  padding: 0 2rem;
+  /* box-shadow: 0 0.1rem #282c34; */
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
